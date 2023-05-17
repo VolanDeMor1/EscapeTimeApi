@@ -6,25 +6,26 @@ import org.bukkit.Location
 import org.bukkit.Material
 import java.util.*
 
-abstract class Wiring(pillar: Pillar) : Puzzle(pillar, PuzzleType.WIRING, 1.0) {
-    abstract var blink: Int
-    abstract var answer: List<Pair<WiringButton, WiringButton>>?
-    abstract var shouldNext: WiringButton?
+interface Wiring : Puzzle {
+    var blink: Int
+    var answer: List<Pair<WiringButton, WiringButton>>?
+    var shouldNext: WiringButton?
 
-    abstract class WiringButton(wiring: Wiring, val isRight: Boolean, location: Location) : PuzzleButton(wiring, location) {
-        abstract val uuid: UUID
-        abstract var type: WiringType?
-        abstract var clicked: Boolean
-        abstract var solved: Boolean
-        abstract var pair: WiringButton?
+    interface WiringButton : PuzzleButton {
+        val uuid: UUID
+        var type: WiringType?
+        val right: Boolean
+        var clicked: Boolean
+        var solved: Boolean
+        var pair: WiringButton?
 
-        abstract fun select()
-        abstract fun blink(delay: Long = 18L)
+        fun select()
+        fun blink(delay: Long = 18L)
 
-        abstract fun failure()
+        fun failure()
 
-        val isLeft: Boolean
-            get() = !isRight
+        val left: Boolean
+            get() = !right
     }
 
     enum class WiringType(val text: String, material: Material, customModelData: Int) {
