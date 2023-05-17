@@ -2,10 +2,10 @@ package lol.asgard.escapetime.api.`object`.puzzle
 
 interface Memory : Puzzle {
     var blink: Int
-    var answer: List<MemoryButton>?
+    var answer: List<MemoryButton>
     var success: Boolean
 
-    interface MemoryButton : PuzzleButton {
+    interface MemoryButton : PuzzleButton<Memory> {
         var isClicked: Boolean
         fun wrong()
         fun correct()

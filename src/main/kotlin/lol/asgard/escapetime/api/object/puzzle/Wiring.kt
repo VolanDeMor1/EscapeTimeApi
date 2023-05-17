@@ -11,7 +11,7 @@ interface Wiring : Puzzle {
     var answer: List<Pair<WiringButton, WiringButton>>?
     var shouldNext: WiringButton?
 
-    interface WiringButton : PuzzleButton {
+    interface WiringButton : PuzzleButton<Wiring> {
         val uuid: UUID
         var type: WiringType?
         val right: Boolean

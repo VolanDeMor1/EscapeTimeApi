@@ -10,7 +10,7 @@ import java.util.*
 interface Gamer: lol.asgard.escapetime.api.`object`.game.GameObject {
     val id: Int
     val uuid: UUID?
-    val offlinePlayer: OfflinePlayer?
+    val cachedOfflinePlayer: OfflinePlayer?
     val settings: Settings?
 
     val perks: List<Perk>

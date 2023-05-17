@@ -7,12 +7,12 @@ import lol.asgard.escapetime.api.util.sound.PlaySound
 import org.bukkit.Location
 import org.bukkit.block.Block
 
-interface Puzzle : GameObject {
+interface Puzzle: GameObject {
     var user: Gamer?
     var state: PuzzleState
     val pillar: Pillar
     val type: PuzzleType
-    val buttons: List<PuzzleButton>
+    val buttons: List<PuzzleButton<*>> // todo test
     val soundLocation: Location
     val activationBlock: Block
     var successfulTimes: Int

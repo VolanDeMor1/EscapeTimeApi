@@ -4,8 +4,8 @@ import org.bukkit.Location
 import org.bukkit.entity.Interaction
 import org.bukkit.entity.ItemDisplay
 
-interface PuzzleButton {
-    val puzzle: Puzzle
+interface PuzzleButton<T: Puzzle> {
+    val puzzle: T
     val location: Location
     var display: ItemDisplay?
     var interaction: Interaction?

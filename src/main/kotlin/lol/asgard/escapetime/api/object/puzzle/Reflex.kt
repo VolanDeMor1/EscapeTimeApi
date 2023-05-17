@@ -4,7 +4,7 @@ interface Reflex: Puzzle {
     var expiredAt: Long
     var active: ReflexButton?
 
-    interface ReflexButton: PuzzleButton {
+    interface ReflexButton: PuzzleButton<Reflex> {
         fun active()
     }
 }
