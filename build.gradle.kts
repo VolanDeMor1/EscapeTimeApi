@@ -7,10 +7,13 @@ version = "1.0-SNAPSHOT"
 
 repositories {
     mavenCentral()
+    maven("https://repo.purpurmc.org/snapshots")
 }
 
 dependencies {
     testImplementation(kotlin("test"))
+    compileOnly("org.purpurmc.purpur:purpur-api:1.19.4-R0.1-SNAPSHOT")
+    compileOnly("net.kyori:adventure-text-minimessage:4.13.0")
 }
 
 tasks.test {
@@ -18,5 +21,5 @@ tasks.test {
 }
 
 kotlin {
-    jvmToolchain(11)
+    jvmToolchain(17)
 }
