@@ -32,9 +32,9 @@
 
 ```gradle
 repositories {
-    maven { url 'https://jitpack.io' }
+    maven("https://jitpack.io")
 }
 dependencies {
-    implementation 'com.github.VolanDeMor1:EscapeTimeApi:1.0.0'
+    implementation("com.github.VolanDeMor1:EscapeTimeApi:1.0.0")
 }
 ```
