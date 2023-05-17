@@ -1,8 +1,8 @@
 package lol.asgard.escapetime
 
-import lol.asgard.escapetime.`object`.MapType
-import lol.asgard.escapetime.`object`.game.Game
-import lol.asgard.escapetime.`object`.gamer.Gamer
+import lol.asgard.escapetime.api.`object`.MapType
+import lol.asgard.escapetime.api.`object`.game.Game
+import lol.asgard.escapetime.api.`object`.gamer.Gamer
 
 interface EscapeTimeAPI {
 
