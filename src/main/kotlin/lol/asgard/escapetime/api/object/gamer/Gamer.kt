@@ -13,7 +13,7 @@ interface Gamer: lol.asgard.escapetime.api.`object`.game.GameObject {
     val offlinePlayer: OfflinePlayer?
     val settings: Settings?
 
-    val perks: List<Perk>?
+    val perks: List<Perk>
     val sabotages: List<Sabotage>
     val appearances: List<Appearance>
 
