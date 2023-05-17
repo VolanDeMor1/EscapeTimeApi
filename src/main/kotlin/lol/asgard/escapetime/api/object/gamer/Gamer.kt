@@ -9,18 +9,18 @@ import java.util.*
 
 interface Gamer: lol.asgard.escapetime.api.`object`.game.GameObject {
     val id: Int
-    val uuid: UUID?
+    val uuid: UUID
     val cachedOfflinePlayer: OfflinePlayer?
-    val settings: Settings?
+    val settings: Settings
 
     val perks: List<Perk>
     val sabotages: List<Sabotage>
     val appearances: List<Appearance>
 
-    val friends: List<UUID>?
-    val blocked: List<UUID>?
+    val friends: List<UUID>
+    val blocked: List<UUID>
 
-    var placeType: PlaceType?
+    var placeType: PlaceType
     var tokens: Int
     var credits: Int
     var level: Int
@@ -28,9 +28,9 @@ interface Gamer: lol.asgard.escapetime.api.`object`.game.GameObject {
     var unlockedPerkSlots: Int
     var unlockedSabotageSlot: Boolean
 
-    val leftHand: Hand?
-    val rightHand: Hand?
-    var status: GamerStatus?
+    val leftHand: Hand
+    val rightHand: Hand
+    var status: GamerStatus
     var nextRoll: Long
     var health: Int
     var monsterType: MonsterType?

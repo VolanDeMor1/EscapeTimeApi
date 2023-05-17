@@ -1,14 +1,12 @@
 package lol.asgard.escapetime.api.`object`.puzzle
 
-import lol.asgard.escapetime.api.`object`.Pillar
 import org.apache.commons.lang3.tuple.Pair
-import org.bukkit.Location
 import org.bukkit.Material
 import java.util.*
 
 interface Wiring : Puzzle {
     var blink: Int
-    var answer: List<Pair<WiringButton, WiringButton>>?
+    var answer: List<Pair<WiringButton, WiringButton>>
     var shouldNext: WiringButton?
 
     interface WiringButton : PuzzleButton<Wiring> {
@@ -20,6 +18,7 @@ interface Wiring : Puzzle {
         var pair: WiringButton?
 
         fun select()
+        fun blink()
         fun blink(delay: Long = 18L)
 
         fun failure()
