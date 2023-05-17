@@ -9,6 +9,7 @@ interface Memory : Puzzle {
         var isClicked: Boolean
         fun wrong()
         fun correct()
+        fun blink()
         fun blink(delay: Long = 18L)
     }
 }

@@ -37,8 +37,8 @@ interface Gamer: lol.asgard.escapetime.api.`object`.game.GameObject {
     var rollAnimating: Boolean
 
     fun roll()
-    fun getPlayer(): Player
-    fun getOfflinePlayer(): Player
+    fun getPlayer(): Player?
+    fun getOfflinePlayer(): OfflinePlayer
 
     fun addCredits(count: Int)
     fun addExp(count: Int)
