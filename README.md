@@ -24,7 +24,7 @@
 <dependency>
     <groupId>com.github.VolanDeMor1</groupId>
     <artifactId>EscapeTimeApi</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 </dependency>
 ```
 
@@ -35,6 +35,6 @@ repositories {
     maven("https://jitpack.io")
 }
 dependencies {
-    implementation("com.github.VolanDeMor1:EscapeTimeApi:1.0.0")
+    implementation("com.github.VolanDeMor1:EscapeTimeApi:1.0.1")
 }
 ```
