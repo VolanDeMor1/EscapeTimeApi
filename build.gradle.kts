@@ -16,6 +16,10 @@ dependencies {
     compileOnly("net.kyori:adventure-text-minimessage:4.13.0")
 }
 
+tasks.compileJava {
+    options.encoding = "UTF-8"
+}
+
 tasks.test {
     useJUnitPlatform()
 }

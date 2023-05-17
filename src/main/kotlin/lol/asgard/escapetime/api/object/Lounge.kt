@@ -7,8 +7,7 @@ import org.bukkit.block.structure.StructureRotation
 import org.bukkit.entity.Interaction
 import org.bukkit.entity.Player
 
-abstract class Lounge(val location: Location, rotation: StructureRotation) :
-    GameObject {
+abstract class Lounge(val location: Location, rotation: StructureRotation) : GameObject {
     abstract val end: Location
     abstract val interaction: Interaction
     abstract val rotation: StructureRotation

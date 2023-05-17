@@ -14,5 +14,5 @@ abstract class PuzzleButton protected constructor(@JvmField val puzzle: Puzzle, 
     abstract fun solved()
     abstract fun clear()
     abstract fun remove()
-    abstract fun setInteraction(interaction: Interaction)
+    abstract fun resetInteraction(newInteraction: Interaction?)
 }
