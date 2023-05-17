@@ -8,16 +8,17 @@ import org.bukkit.Location
 import org.bukkit.block.Block
 import java.util.*
 
-abstract class Pillar(val location: Location) : GameObject {
-    abstract val uniqueId: UUID
-    abstract val activationButtons: HashMap<Block, Puzzle>
-    abstract val puzzles: HashMap<PuzzleType, Puzzle>
-    abstract val end: Location
-    abstract var state: PillarState
-    abstract var lastPuzzle: Puzzle?
+interface Pillar: GameObject {
+    val location: Location
+    val uniqueId: UUID
+    val activationButtons: HashMap<Block, Puzzle>
+    val puzzles: HashMap<PuzzleType, Puzzle>
+    val end: Location
+    var state: PillarState
+    var lastPuzzle: Puzzle?
 
-    abstract fun playSound(playSound: PlaySound)
-    abstract fun spawnToyPart()
-    abstract fun remove()
-    abstract fun addActivationButton(puzzle: Puzzle, block: Block)
+    fun playSound(playSound: PlaySound)
+    fun spawnToyPart()
+    fun remove()
+    fun addActivationButton(puzzle: Puzzle, block: Block)
 }

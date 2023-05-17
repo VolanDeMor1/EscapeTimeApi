@@ -8,7 +8,7 @@ plugins {
 
 val groupVal = "lol.asgard"
 val artifactVal = "EscapeTimeApi"
-val versionVal = "1.2"
+val versionVal = "1.2.1"
 
 group = groupVal
 version = versionVal
@@ -50,6 +50,17 @@ tasks.withType<KotlinCompile> {
     kotlinOptions.jvmTarget = "17"
 }
 
+tasks.javadoc {
+    if (JavaVersion.current().isJava9Compatible) {
+        (options as StandardJavadocDocletOptions).addBooleanOption("html5", true)
+    }
+}
+
 kotlin {
     jvmToolchain(17)
+}
+
+java {
+    withJavadocJar()
+    withSourcesJar()
 }

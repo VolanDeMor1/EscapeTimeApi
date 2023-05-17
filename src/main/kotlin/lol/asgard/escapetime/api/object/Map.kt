@@ -4,12 +4,13 @@ import lol.asgard.escapetime.api.`object`.game.GameObject
 import org.bukkit.Location
 import org.bukkit.World
 
-abstract class Map(val type: MapType, val world: World) :
-    GameObject {
-    abstract val pillars: MutableList<Pillar>
-    abstract val spawnLocations: MutableList<Location>
-    abstract val monsterLocation: Location
+interface Map: GameObject {
+    val type: MapType
+    val world: World
+    val pillars: MutableList<Pillar>
+    val spawnLocations: MutableList<Location>
+    val monsterLocation: Location
 
-    abstract fun remove()
-    abstract fun randomSpawnLocation(): Location
+    fun remove()
+    fun randomSpawnLocation(): Location
 }

@@ -2,8 +2,8 @@ package lol.asgard.escapetime.api.`object`.game
 
 interface Tickable {
     var lastTick: Long
-    var tick: Double
-    var tickMillis: Long
+    val tick: Double
+    val tickMillis: Long
 
     fun tryTick()
     fun tick()

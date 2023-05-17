@@ -5,11 +5,11 @@ import net.kyori.adventure.bossbar.BossBar
 import org.bukkit.entity.Player
 import org.bukkit.scheduler.BukkitTask
 
-abstract class GameTask(game: Game) : Thread("Game Task") {
-    abstract val game: Game
-    abstract var task: BukkitTask?
-    abstract val withBar: HashSet<Player>
-    abstract val bar: BossBar
+interface GameTask {
+    val game: Game
+    var task: BukkitTask?
+    val withBar: HashSet<Player>
+    val bar: BossBar
 
-    abstract fun cancel()
+    fun cancel()
 }

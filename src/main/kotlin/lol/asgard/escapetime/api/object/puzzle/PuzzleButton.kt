@@ -4,15 +4,16 @@ import org.bukkit.Location
 import org.bukkit.entity.Interaction
 import org.bukkit.entity.ItemDisplay
 
-abstract class PuzzleButton protected constructor(@JvmField val puzzle: Puzzle, val location: Location) {
-    var display: ItemDisplay? = null
-    var interaction: Interaction? = null
+interface PuzzleButton {
+    val puzzle: Puzzle
+    val location: Location
+    var display: ItemDisplay?
+    var interaction: Interaction?
 
-    abstract fun spawn(loc: Location)
-
-    abstract fun click()
-    abstract fun solved()
-    abstract fun clear()
-    abstract fun remove()
-    abstract fun resetInteraction(newInteraction: Interaction?)
+    fun spawn(loc: Location)
+    fun click()
+    fun solved()
+    fun clear()
+    fun remove()
+    fun resetInteraction(newInteraction: Interaction?)
 }

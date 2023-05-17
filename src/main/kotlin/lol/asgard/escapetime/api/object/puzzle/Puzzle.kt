@@ -7,32 +7,22 @@ import lol.asgard.escapetime.api.util.sound.PlaySound
 import org.bukkit.Location
 import org.bukkit.block.Block
 
-abstract class Puzzle protected constructor(
-    pillar: Pillar,
-    val type: PuzzleType,
-    duration: Double
-) : GameObject {
-    abstract var user: Gamer?
-    abstract var state: PuzzleState
-    abstract val pillar: Pillar
-    abstract val buttons: List<PuzzleButton>
-    abstract val soundLocation: Location
-    abstract val activationBlock: Block
-    abstract var successfulTimes: Int
+interface Puzzle : GameObject {
+    var user: Gamer?
+    var state: PuzzleState
+    val pillar: Pillar
+    val type: PuzzleType
+    val buttons: List<PuzzleButton>
+    val soundLocation: Location
+    val activationBlock: Block
+    var successfulTimes: Int
 
-    abstract fun playSound(playSound: PlaySound)
-
-    abstract fun activate(who: Gamer)
-
-    abstract fun deactivate()
-
-    abstract fun solved()
-
-    abstract fun remove()
-
-    abstract fun onFailure()
-
-    abstract fun onSuccess()
-
-    abstract fun clear()
+    fun playSound(playSound: PlaySound)
+    fun activate(who: Gamer)
+    fun deactivate()
+    fun solved()
+    fun remove()
+    fun onFailure()
+    fun onSuccess()
+    fun clear()
 }

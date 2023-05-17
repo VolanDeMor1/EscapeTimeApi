@@ -13,8 +13,8 @@ interface Game {
     val gamers: List<Gamer>
     val map: Map
     val task: GameTask
+    val alive: List<Gamer>
     var monsterTimer: BukkitTask?
-    var alive: List<Gamer>?
     var monster: Gamer?
-    var endIn: Long
+    var endIn: Long?
 }
