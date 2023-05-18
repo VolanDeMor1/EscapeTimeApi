@@ -4,8 +4,9 @@ before_install:
   - sdk use java 17.0.7-amzn
   - sdk update
 install:
+  - echo "Run chmod to make gradlew executable"
   - chmod +x ./gradlew
-  - echo "Running an install command"
-  - ./gradlew clean install
+  - echo "Running an build command"
+  - ./gradlew clean build
   - echo "Generate Javadoc with Dokka"
   - ./gradlew dokkaHtml
