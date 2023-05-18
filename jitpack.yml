@@ -1,0 +1,8 @@
+before_install:
+  - sdk install java 17.0.7-amzn
+  - sdk use java 17.0.7-amzn
+install:
+  - echo "Running an install command"
+  - ./gradlew clean install
+  - echo "Generate Javadoc with Dokka"
+  - ./gradlew dokkaHtml
