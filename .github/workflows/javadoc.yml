@@ -1,9 +1,6 @@
 name: Generate Javadoc
 
 on:
-  push:
-    branches:
-      - master
   release:
     types: [created]
     

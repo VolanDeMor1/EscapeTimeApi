@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://asgard.lol/escapetime">
-  <img src="https://raw.githubusercontent.com/VolanDeMor1/EscapeTimeApi/master/banner.png" alt="EscapeTimeAPI">
+  <img src="https://raw.githubusercontent.com/VolanDeMor1/EscapeTimeApi/master/images/banner.png" alt="EscapeTimeAPI">
 </a>
 <br/><br/>
 
@@ -11,7 +11,10 @@
 
 </div>
 
-## Использование
+<a href="https://asgard.lol/escapetime">
+  <img src="https://raw.githubusercontent.com/VolanDeMor1/EscapeTimeApi/master/images/usage.png" alt="EscapeTimeAPI">
+</a>
+<br/><br/>
 
 ```java
 EscapeTime escapeTime = (EscapeTime) getServer().getPluginManager().getPlugin("EscapeTime");
@@ -19,7 +22,10 @@ EscapeTimeAPI api = escapeTime.api();
 api.testApi(); // вывод: EscapeTime API works correctly!
 ```
 
-## Установка
+<a href="https://asgard.lol/escapetime">
+  <img src="https://raw.githubusercontent.com/VolanDeMor1/EscapeTimeApi/master/images/install.png" alt="EscapeTimeAPI">
+</a>
+<br/><br/>
 
 Не забудьте заменить `VERSION` на необходимую вам версию! Последняя стабильная версия API: 
 [![](https://jitpack.io/v/VolanDeMor1/EscapeTimeApi.svg?style=flat-square)](https://jitpack.io/#VolanDeMor1/EscapeTimeApi)
