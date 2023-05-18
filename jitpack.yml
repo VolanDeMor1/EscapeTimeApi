@@ -1,7 +1,10 @@
 before_install:
+  - sdk update
   - sdk install java 17.0.7-amzn
   - sdk use java 17.0.7-amzn
+  - sdk update
 install:
+  - chmod +x ./gradlew
   - echo "Running an install command"
   - ./gradlew clean install
   - echo "Generate Javadoc with Dokka"
