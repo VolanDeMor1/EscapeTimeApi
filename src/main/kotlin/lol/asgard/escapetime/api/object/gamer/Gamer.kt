@@ -1,5 +1,6 @@
 package lol.asgard.escapetime.api.`object`.gamer
 
+import lol.asgard.escapetime.api.`object`.game.GameObject
 import lol.asgard.escapetime.api.`object`.gamer.cosmetic.Appearance
 import lol.asgard.escapetime.api.`object`.gamer.cosmetic.Perk
 import lol.asgard.escapetime.api.`object`.gamer.cosmetic.Sabotage
@@ -7,7 +8,7 @@ import org.bukkit.OfflinePlayer
 import org.bukkit.entity.Player
 import java.util.*
 
-interface Gamer: lol.asgard.escapetime.api.`object`.game.GameObject {
+interface Gamer: GameObject, Monster {
     val id: Int
     val uuid: UUID
     val cachedOfflinePlayer: OfflinePlayer?
@@ -33,7 +34,6 @@ interface Gamer: lol.asgard.escapetime.api.`object`.game.GameObject {
     var status: GamerStatus
     var nextRoll: Long
     var health: Int
-    var monsterType: MonsterType?
     var rollAnimating: Boolean
 
     fun roll()
@@ -46,16 +46,5 @@ interface Gamer: lol.asgard.escapetime.api.`object`.game.GameObject {
 
     fun getExpToNextLevel(): Int
     fun getExp(level: Int): Int
-
-    companion object {
-        @JvmStatic
-        fun of(player: Player): Gamer {
-            throw NotImplementedError("This method is not implemented")
-        }
-        @JvmStatic
-        fun of(player: OfflinePlayer): Gamer {
-            throw NotImplementedError("This method is not implemented")
-        }
-    }
 
 }
