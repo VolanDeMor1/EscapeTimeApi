@@ -8,8 +8,8 @@ on:
     types: [created]
     
 jobs:
-  build:
-
+  build-and-deploy:
+    concurrency: ci-${{ github.ref }}
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -30,3 +30,6 @@ jobs:
         
       - name: Generate Javadocs with Dokka
         run: ./gradlew dokkaHtmlJar
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4.4.1
