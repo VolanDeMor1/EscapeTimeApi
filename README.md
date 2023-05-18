@@ -3,7 +3,7 @@
 <a href="https://asgard.lol/escapetime">
   <img src="https://raw.githubusercontent.com/VolanDeMor1/EscapeTimeApi/master/banner.png" alt="EscapeTimeAPI">
 </a>
-<br/>
+<br/><br/>
 
 [![](https://jitpack.io/v/VolanDeMor1/EscapeTimeApi.svg?style=flat-square)](https://jitpack.io/#VolanDeMor1/EscapeTimeApi)
 [![CodeFactor](https://www.codefactor.io/repository/github/volandemor1/escapetimeapi/badge/master?style=flat-square)](https://www.codefactor.io/repository/github/volandemor1/escapetimeapi/overview/master)
