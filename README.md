@@ -3,7 +3,7 @@
 <a href="https://asgard.lol/escapetime">
   <img src="https://raw.githubusercontent.com/VolanDeMor1/EscapeTimeApi/master/banner.png" alt="EscapeTimeAPI">
 </a>
-<br/>
+<br/><br/>
 
 [![](https://jitpack.io/v/VolanDeMor1/EscapeTimeApi.svg?style=flat-square)](https://jitpack.io/#VolanDeMor1/EscapeTimeApi)
 [![CodeFactor](https://www.codefactor.io/repository/github/volandemor1/escapetimeapi/badge/master?style=flat-square)](https://www.codefactor.io/repository/github/volandemor1/escapetimeapi/overview/master)
@@ -25,6 +25,9 @@ api.testApi(); // вывод: EscapeTime API works correctly!
 
 ## Установка
 
+Не забудьте заменить `VERSION` на необходимую вам версию! Последняя стабильная версия API: 
+[![](https://jitpack.io/v/VolanDeMor1/EscapeTimeApi.svg?style=flat-square)](https://jitpack.io/#VolanDeMor1/EscapeTimeApi)
+
 ### Maven
 
 ```xml
@@ -36,7 +39,7 @@ api.testApi(); // вывод: EscapeTime API works correctly!
 <dependency>
     <groupId>com.github.VolanDeMor1</groupId>
     <artifactId>EscapeTimeApi</artifactId>
-    <version>1.3</version>
+    <version>VERSION</version>
 </dependency>
 ```
 
@@ -47,6 +50,6 @@ repositories {
     maven("https://jitpack.io")
 }
 dependencies {
-    implementation("com.github.VolanDeMor1:EscapeTimeApi:1.3")
+    implementation("com.github.VolanDeMor1:EscapeTimeApi:VERSION")
 }
 ```
