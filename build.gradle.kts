@@ -61,7 +61,7 @@ tasks.test {
 }
 
 tasks.dokkaHtml {
-    outputDirectory.set(buildDir.resolve("javadoc/"))
+    outputDirectory.set(buildDir.resolve("docs/"))
 }
 
 tasks.withType<KotlinCompile> {
