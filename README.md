@@ -11,7 +11,9 @@
 
 </div>
 
-<a href="https://asgard.lol/escapetime">
+Открытое API для разработчиков EscapeTime
+
+<a href="#usage" id="usage">
   <img src="https://raw.githubusercontent.com/VolanDeMor1/EscapeTimeApi/master/images/usage.png" alt="EscapeTimeAPI">
 </a>
 <br/><br/>
@@ -22,7 +24,7 @@ EscapeTimeAPI api = escapeTime.api();
 api.testApi(); // вывод: EscapeTime API works correctly!
 ```
 
-<a href="https://asgard.lol/escapetime">
+<a href="#install" id="install">
   <img src="https://raw.githubusercontent.com/VolanDeMor1/EscapeTimeApi/master/images/install.png" alt="EscapeTimeAPI">
 </a>
 <br/><br/>
