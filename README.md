@@ -58,8 +58,8 @@ dependencies {
 
 ```java
 EscapeTime escapeTime = (EscapeTime) getServer().getPluginManager().getPlugin("EscapeTime");
-        EscapeTimeAPI api = escapeTime.api();
-        api.testApi(); // вывод: EscapeTime API works correctly!
+EscapeTimeAPI api = escapeTime.api();
+api.testApi(); // вывод: EscapeTime API works correctly!
 ```
 <br/><br/>
 <a href="#docs" id="docs">
