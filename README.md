@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://asgard.lol/escapetime">
-  <img src="https://raw.githubusercontent.com/VolanDeMor1/EscapeTimeApi/master/images/banner.png" alt="EscapeTimeAPI">
+  <img src="https://raw.githubusercontent.com/VolanDeMor1/EscapeTimeApi/master/images/banner.png" alt="EscapeTimeAPI" draggable="false">
 </a>
 <br/><br/>
 
@@ -14,7 +14,7 @@
 Открытое API для разработчиков EscapeTime
 
 <a href="#usage" id="usage">
-  <img src="https://raw.githubusercontent.com/VolanDeMor1/EscapeTimeApi/master/images/usage.png" alt="EscapeTimeAPI">
+  <img src="https://raw.githubusercontent.com/VolanDeMor1/EscapeTimeApi/master/images/usage.png" alt="EscapeTimeAPI" draggable="false">
 </a>
 <br/><br/>
 
@@ -25,7 +25,7 @@ api.testApi(); // вывод: EscapeTime API works correctly!
 ```
 
 <a href="#install" id="install">
-  <img src="https://raw.githubusercontent.com/VolanDeMor1/EscapeTimeApi/master/images/install.png" alt="EscapeTimeAPI">
+  <img src="https://raw.githubusercontent.com/VolanDeMor1/EscapeTimeApi/master/images/install.png" alt="EscapeTimeAPI" draggable="false">
 </a>
 <br/><br/>
 
