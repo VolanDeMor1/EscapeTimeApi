@@ -23,7 +23,7 @@
 <br/><br/>
 
 Не забудьте заменить `VERSION` на необходимую вам версию! Последняя стабильная версия API: 
-[![](https://jitpack.io/v/VolanDeMor1/EscapeTimeApi.svg?style=flat-square)](https://jitpack.io/#VolanDeMor1/EscapeTimeApi)
+[![](https://jitpack.io/v/VolanDeMor1/EscapeTimeApi.svg?style=flat)](https://jitpack.io/#VolanDeMor1/EscapeTimeApi)
 
 ### Maven
 

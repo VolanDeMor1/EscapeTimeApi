@@ -1,11 +1,6 @@
 name: Gradle Package
 
 on:
-  push:
-    paths:
-      - '**.gradle.kts'
-    branches:
-      - master
   release:
     types: [created]
 

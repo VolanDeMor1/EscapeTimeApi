@@ -9,7 +9,7 @@ plugins {
 
 val groupVal = "lol.asgard"
 val artifactVal = "escapetimeapi"
-val versionVal = "1.3.3"
+val versionVal = "1.3.4"
 
 group = groupVal
 version = versionVal
@@ -40,13 +40,6 @@ publishing {
     }
     publications {
         register<MavenPublication>("gpr") {
-            groupId = groupId
-            artifactId = artifactVal
-            version = versionVal
-
-            from(components["java"])
-        }
-        create<MavenPublication>("maven") {
             groupId = groupId
             artifactId = artifactVal
             version = versionVal
