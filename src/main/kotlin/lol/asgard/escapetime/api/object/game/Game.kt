@@ -28,7 +28,7 @@ interface Game {
     fun end(reason: EndReason)
     fun collectPart(part: Int)
     fun remove()
-    fun getState(): GameState
+    fun getState(): GameState?
     fun setState(state: GameState)
     fun getTimeToEnd(): String
 }

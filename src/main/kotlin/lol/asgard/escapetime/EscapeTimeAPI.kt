@@ -13,6 +13,6 @@ interface EscapeTimeAPI {
     fun quickStart(gamer: Gamer)
     fun join(gamer: Gamer, game: Game)
     fun gamerOf(player: Player): Gamer
-    fun gamerOf(player: OfflinePlayer): Gamer
+    fun gamerOf(player: OfflinePlayer): Gamer?
 
 }
