@@ -6,11 +6,9 @@
 <br/><br/>
 
 [![Приссоединяйтесь к дискорду](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://asgard.lol/discord)
-![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)
 
 [![](https://jitpack.io/v/VolanDeMor1/EscapeTimeApi.svg?style=flat)](https://jitpack.io/#VolanDeMor1/EscapeTimeApi)
 ![Kotlin](https://img.shields.io/badge/kotlin-%23f5336d.svg?style=flat&logo=kotlin&logoColor=white)
-![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=flat&logo=markdown&logoColor=white)
 ![Gradle](https://img.shields.io/badge/Gradle-02303A.svg?style=flat&logo=Gradle&logoColor=white)
 
 Открытое API для разработчиков [EscapeTime](https://asgard.lol/escapetime)
@@ -56,10 +54,25 @@ dependencies {
 </a>
 <br/><br/>
 
+Добавьте в `plugin.yml`:
+```yml
+depend: [ 'EscapeTime' ]
+```
+
+Теперь вы можете использовать API:
 ```java
-EscapeTime escapeTime = (EscapeTime) getServer().getPluginManager().getPlugin("EscapeTime");
-EscapeTimeAPI api = escapeTime.api();
+EscapeTimeAPI api = EscapeTimeAPI.get();
 api.testApi(); // вывод: EscapeTime API works correctly!
+```
+или
+```java
+Plugin plugin = getServer().getPluginManager().getPlugin("EscapeTime");
+
+if (plugin != null) {
+    EscapeTime escapeTime = (EscapeTime) plugin;
+    EscapeTimeAPI api = escapeTime.api();
+    api.testApi(); // вывод: EscapeTime API works correctly!
+} else throw NullPointerException("Плагин EscapeTime не обнаружен");
 ```
 <br/><br/>
 <a href="#docs" id="docs">
@@ -69,3 +82,13 @@ api.testApi(); // вывод: EscapeTime API works correctly!
 
 ✅Javadocs(Kotlindocs): https://volandemor1.github.io/EscapeTimeApi/ <br/>
 ⏳Wiki: https://github.com/VolanDeMor1/EscapeTimeApi/wiki
+<br/><br/>
+<a href="#errors" id="errors">
+<img src="https://raw.githubusercontent.com/VolanDeMor1/EscapeTimeApi/master/images/errors.png" alt="Errors" draggable="false">
+</a>
+<br/><br/>
+
+### `NullPointerException: Плагин EscapeTime не обнаружен`
+Есть несколько вещей, которые могут вызвать данную ошибку:
+1. Плагин EscapeTime не установлен на сервер
+2. Вы используете старую версию API
