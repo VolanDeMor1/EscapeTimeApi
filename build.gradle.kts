@@ -9,7 +9,7 @@ plugins {
 
 val groupVal = "lol.asgard"
 val artifactVal = "escapetimeapi"
-val versionVal = "1.3.4"
+val versionVal = "1.3.5"
 
 group = groupVal
 version = versionVal
