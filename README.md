@@ -65,11 +65,10 @@ depend: [ 'EscapeTime' ]
 Plugin plugin = Bukkit.getPluginManager().getPlugin("EscapeTime");
 
 if (plugin == null) {
-    throw NullPointerException("Плагин EscapeTime не обнаружен");
+    throw new NullPointerException("Плагин EscapeTime не обнаружен");
 }
 
-EscapeTime escapeTime = (EscapeTime) plugin;
-EscapeTimeAPI api = escapeTime.api();
+EscapeTimeAPI api = ((EscapeTime) plugin).api();
 api.testApi(); // вывод: EscapeTime API works correctly!
 ```
 или
