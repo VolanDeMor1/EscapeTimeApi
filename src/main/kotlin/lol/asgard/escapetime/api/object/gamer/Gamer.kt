@@ -4,6 +4,7 @@ import lol.asgard.escapetime.api.`object`.game.GameObject
 import lol.asgard.escapetime.api.`object`.gamer.cosmetic.Appearance
 import lol.asgard.escapetime.api.`object`.gamer.cosmetic.Perk
 import lol.asgard.escapetime.api.`object`.gamer.cosmetic.Sabotage
+import lol.asgard.escapetime.api.event.gamer.GamerLevelUpEvent
 import org.bukkit.OfflinePlayer
 import org.bukkit.entity.Player
 import java.util.*
@@ -149,7 +150,9 @@ interface Gamer: GameObject, Monster {
     fun addExp(count: Int)
 
     /**
-     * Добавить уровень игроку, также откроет слоты если уровень будет достигнут определённого значения
+     * Добавить уровень игроку, также откроет слоты если уровень будет достигнут определённого значения.
+     * Вызывает GamerLevelUpEvent
+     * @see GamerLevelUpEvent
      */
     fun addLevel(count: Int)
 
