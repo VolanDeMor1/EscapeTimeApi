@@ -66,7 +66,7 @@ api.testApi(); // вывод: EscapeTime API works correctly!
 ```
 или
 ```java
-Plugin plugin = getServer().getPluginManager().getPlugin("EscapeTime");
+Plugin plugin = Bukkit.getPluginManager().getPlugin("EscapeTime");
 
 if (plugin != null) {
     EscapeTime escapeTime = (EscapeTime) plugin;
