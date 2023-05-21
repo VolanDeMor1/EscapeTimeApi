@@ -2,7 +2,8 @@ $dokka.format:html-v1
 $dokka.linkExtension:html
 $dokka.location:lol.asgard.escapetime.api.event.game////PointingToDeclaration/-escape-time-api/lol.asgard.escapetime.api.event.game/index.html
 $dokka.location:lol.asgard.escapetime.api.event.game/GameEndEvent///PointingToDeclaration/-escape-time-api/lol.asgard.escapetime.api.event.game/-game-end-event/index.html
-$dokka.location:lol.asgard.escapetime.api.event.game/GameEndEvent/GameEndEvent/#lol.asgard.escapetime.api.object.game.Game/PointingToDeclaration/-escape-time-api/lol.asgard.escapetime.api.event.game/-game-end-event/-game-end-event.html
+$dokka.location:lol.asgard.escapetime.api.event.game/GameEndEvent/GameEndEvent/#lol.asgard.escapetime.api.object.game.Game#lol.asgard.escapetime.api.object.game.EndReason/PointingToDeclaration/-escape-time-api/lol.asgard.escapetime.api.event.game/-game-end-event/-game-end-event.html
+$dokka.location:lol.asgard.escapetime.api.event.game/GameEndEvent/reason/#/PointingToDeclaration/-escape-time-api/lol.asgard.escapetime.api.event.game/-game-end-event/reason.html
 $dokka.location:lol.asgard.escapetime.api.event.game/GameEvent.Companion///PointingToDeclaration/-escape-time-api/lol.asgard.escapetime.api.event.game/-game-event/-companion/index.html
 $dokka.location:lol.asgard.escapetime.api.event.game/GameEvent.Companion/getHandlerList/#/PointingToDeclaration/-escape-time-api/lol.asgard.escapetime.api.event.game/-game-event/-companion/get-handler-list.html
 $dokka.location:lol.asgard.escapetime.api.event.game/GameEvent///PointingToDeclaration/-escape-time-api/lol.asgard.escapetime.api.event.game/-game-event/index.html
@@ -32,7 +33,9 @@ $dokka.location:lol.asgard.escapetime.api.event.gamer/GamerJoinGameEvent///Point
 $dokka.location:lol.asgard.escapetime.api.event.gamer/GamerJoinGameEvent/GamerJoinGameEvent/#lol.asgard.escapetime.api.object.game.Game#lol.asgard.escapetime.api.object.gamer.Gamer#org.bukkit.entity.Player/PointingToDeclaration/-escape-time-api/lol.asgard.escapetime.api.event.gamer/-gamer-join-game-event/-gamer-join-game-event.html
 $dokka.location:lol.asgard.escapetime.api.event.gamer/GamerJoinGameEvent/game/#/PointingToDeclaration/-escape-time-api/lol.asgard.escapetime.api.event.gamer/-gamer-join-game-event/game.html
 $dokka.location:lol.asgard.escapetime.api.event.gamer/GamerLevelUpEvent///PointingToDeclaration/-escape-time-api/lol.asgard.escapetime.api.event.gamer/-gamer-level-up-event/index.html
-$dokka.location:lol.asgard.escapetime.api.event.gamer/GamerLevelUpEvent/GamerLevelUpEvent/#lol.asgard.escapetime.api.object.gamer.Gamer#org.bukkit.entity.Player/PointingToDeclaration/-escape-time-api/lol.asgard.escapetime.api.event.gamer/-gamer-level-up-event/-gamer-level-up-event.html
+$dokka.location:lol.asgard.escapetime.api.event.gamer/GamerLevelUpEvent/GamerLevelUpEvent/#lol.asgard.escapetime.api.object.gamer.Gamer#org.bukkit.entity.Player#kotlin.Int#kotlin.Int/PointingToDeclaration/-escape-time-api/lol.asgard.escapetime.api.event.gamer/-gamer-level-up-event/-gamer-level-up-event.html
+$dokka.location:lol.asgard.escapetime.api.event.gamer/GamerLevelUpEvent/newLevel/#/PointingToDeclaration/-escape-time-api/lol.asgard.escapetime.api.event.gamer/-gamer-level-up-event/new-level.html
+$dokka.location:lol.asgard.escapetime.api.event.gamer/GamerLevelUpEvent/oldLevel/#/PointingToDeclaration/-escape-time-api/lol.asgard.escapetime.api.event.gamer/-gamer-level-up-event/old-level.html
 $dokka.location:lol.asgard.escapetime.api.event.gamer/GamerQuitGameEvent///PointingToDeclaration/-escape-time-api/lol.asgard.escapetime.api.event.gamer/-gamer-quit-game-event/index.html
 $dokka.location:lol.asgard.escapetime.api.event.gamer/GamerQuitGameEvent/GamerQuitGameEvent/#lol.asgard.escapetime.api.object.game.Game#kotlin.Boolean#lol.asgard.escapetime.api.object.gamer.Gamer#org.bukkit.entity.Player/PointingToDeclaration/-escape-time-api/lol.asgard.escapetime.api.event.gamer/-gamer-quit-game-event/-gamer-quit-game-event.html
 $dokka.location:lol.asgard.escapetime.api.event.gamer/GamerQuitGameEvent/force/#/PointingToDeclaration/-escape-time-api/lol.asgard.escapetime.api.event.gamer/-gamer-quit-game-event/force.html
@@ -105,9 +108,6 @@ $dokka.location:lol.asgard.escapetime.api.object.gamer.cosmetic/Cosmetic/isActiv
 $dokka.location:lol.asgard.escapetime.api.object.gamer.cosmetic/Cosmetic/typeString/#/PointingToDeclaration/-escape-time-api/lol.asgard.escapetime.api.object.gamer.cosmetic/-cosmetic/type-string.html
 $dokka.location:lol.asgard.escapetime.api.object.gamer.cosmetic/LevelCosmetic///PointingToDeclaration/-escape-time-api/lol.asgard.escapetime.api.object.gamer.cosmetic/-level-cosmetic/index.html
 $dokka.location:lol.asgard.escapetime.api.object.gamer.cosmetic/LevelCosmetic/level/#/PointingToDeclaration/-escape-time-api/lol.asgard.escapetime.api.object.gamer.cosmetic/-level-cosmetic/level.html
-$dokka.location:lol.asgard.escapetime.api.object.gamer.cosmetic/Perk.Companion///PointingToDeclaration/-escape-time-api/lol.asgard.escapetime.api.object.gamer.cosmetic/-perk/-companion/index.html
-$dokka.location:lol.asgard.escapetime.api.object.gamer.cosmetic/Perk.Companion/get/#lol.asgard.escapetime.api.object.gamer.Gamer#lol.asgard.escapetime.api.object.gamer.cosmetic.PerkType/PointingToDeclaration/-escape-time-api/lol.asgard.escapetime.api.object.gamer.cosmetic/-perk/-companion/get.html
-$dokka.location:lol.asgard.escapetime.api.object.gamer.cosmetic/Perk.Companion/orElse/#lol.asgard.escapetime.api.object.gamer.Gamer#lol.asgard.escapetime.api.object.gamer.cosmetic.PerkType?#kotlin.Float/PointingToDeclaration/-escape-time-api/lol.asgard.escapetime.api.object.gamer.cosmetic/-perk/-companion/or-else.html
 $dokka.location:lol.asgard.escapetime.api.object.gamer.cosmetic/Perk///PointingToDeclaration/-escape-time-api/lol.asgard.escapetime.api.object.gamer.cosmetic/-perk/index.html
 $dokka.location:lol.asgard.escapetime.api.object.gamer.cosmetic/Perk/type/#/PointingToDeclaration/-escape-time-api/lol.asgard.escapetime.api.object.gamer.cosmetic/-perk/type.html
 $dokka.location:lol.asgard.escapetime.api.object.gamer.cosmetic/PerkType.Companion///PointingToDeclaration/-escape-time-api/lol.asgard.escapetime.api.object.gamer.cosmetic/-perk-type/-companion/index.html
@@ -193,6 +193,7 @@ $dokka.location:lol.asgard.escapetime.api.object.gamer/GamerStatus/values/#/Poin
 $dokka.location:lol.asgard.escapetime.api.object.gamer/Hand///PointingToDeclaration/-escape-time-api/lol.asgard.escapetime.api.object.gamer/-hand/index.html
 $dokka.location:lol.asgard.escapetime.api.object.gamer/Hand/action/#/PointingToDeclaration/-escape-time-api/lol.asgard.escapetime.api.object.gamer/-hand/action.html
 $dokka.location:lol.asgard.escapetime.api.object.gamer/Hand/click/#/PointingToDeclaration/-escape-time-api/lol.asgard.escapetime.api.object.gamer/-hand/click.html
+$dokka.location:lol.asgard.escapetime.api.object.gamer/Hand/getGamer/#/PointingToDeclaration/-escape-time-api/lol.asgard.escapetime.api.object.gamer/-hand/get-gamer.html
 $dokka.location:lol.asgard.escapetime.api.object.gamer/Hand/grub/#/PointingToDeclaration/-escape-time-api/lol.asgard.escapetime.api.object.gamer/-hand/grub.html
 $dokka.location:lol.asgard.escapetime.api.object.gamer/Hand/grubbingAt/#/PointingToDeclaration/-escape-time-api/lol.asgard.escapetime.api.object.gamer/-hand/grubbing-at.html
 $dokka.location:lol.asgard.escapetime.api.object.gamer/Hand/potion/#/PointingToDeclaration/-escape-time-api/lol.asgard.escapetime.api.object.gamer/-hand/potion.html
@@ -403,6 +404,14 @@ $dokka.location:lol.asgard.escapetime.api.util.sound/PlaySound/play/#org.bukkit.
 $dokka.location:lol.asgard.escapetime.api.util.sound/PlaySound/sound/#/PointingToDeclaration/-escape-time-api/lol.asgard.escapetime.api.util.sound/-play-sound/sound.html
 $dokka.location:lol.asgard.escapetime.api.util.sound/PlaySound/volume/#/PointingToDeclaration/-escape-time-api/lol.asgard.escapetime.api.util.sound/-play-sound/volume.html
 $dokka.location:lol.asgard.escapetime////PointingToDeclaration/-escape-time-api/lol.asgard.escapetime/index.html
+$dokka.location:lol.asgard.escapetime/EscapeTime.Companion///PointingToDeclaration/-escape-time-api/lol.asgard.escapetime/-escape-time/-companion/index.html
+$dokka.location:lol.asgard.escapetime/EscapeTime.Companion/api/#/PointingToDeclaration/-escape-time-api/lol.asgard.escapetime/-escape-time/-companion/api.html
+$dokka.location:lol.asgard.escapetime/EscapeTime.Companion/gamerOf/#org.bukkit.OfflinePlayer/PointingToDeclaration/-escape-time-api/lol.asgard.escapetime/-escape-time/-companion/gamer-of.html
+$dokka.location:lol.asgard.escapetime/EscapeTime.Companion/gamerOf/#org.bukkit.entity.Player/PointingToDeclaration/-escape-time-api/lol.asgard.escapetime/-escape-time/-companion/gamer-of.html
+$dokka.location:lol.asgard.escapetime/EscapeTime.Companion/join/#lol.asgard.escapetime.api.object.gamer.Gamer#lol.asgard.escapetime.api.object.game.Game/PointingToDeclaration/-escape-time-api/lol.asgard.escapetime/-escape-time/-companion/join.html
+$dokka.location:lol.asgard.escapetime/EscapeTime.Companion/newGame/#lol.asgard.escapetime.api.object.gamer.Gamer#lol.asgard.escapetime.api.object.MapType/PointingToDeclaration/-escape-time-api/lol.asgard.escapetime/-escape-time/-companion/new-game.html
+$dokka.location:lol.asgard.escapetime/EscapeTime.Companion/quickStart/#lol.asgard.escapetime.api.object.gamer.Gamer/PointingToDeclaration/-escape-time-api/lol.asgard.escapetime/-escape-time/-companion/quick-start.html
+$dokka.location:lol.asgard.escapetime/EscapeTime.Companion/testApi/#/PointingToDeclaration/-escape-time-api/lol.asgard.escapetime/-escape-time/-companion/test-api.html
 $dokka.location:lol.asgard.escapetime/EscapeTime///PointingToDeclaration/-escape-time-api/lol.asgard.escapetime/-escape-time/index.html
 $dokka.location:lol.asgard.escapetime/EscapeTime/api/#/PointingToDeclaration/-escape-time-api/lol.asgard.escapetime/-escape-time/api.html
 $dokka.location:lol.asgard.escapetime/EscapeTimeAPI///PointingToDeclaration/-escape-time-api/lol.asgard.escapetime/-escape-time-a-p-i/index.html
