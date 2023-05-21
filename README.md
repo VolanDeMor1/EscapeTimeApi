@@ -61,18 +61,22 @@ depend: [ 'EscapeTime' ]
 
 Теперь вы можете использовать API:
 ```java
-EscapeTimeAPI api = EscapeTimeAPI.get();
+// JAVA
+Plugin plugin = Bukkit.getPluginManager().getPlugin("EscapeTime");
+
+if (plugin == null) {
+    throw NullPointerException("Плагин EscapeTime не обнаружен");
+}
+
+EscapeTime escapeTime = (EscapeTime) plugin;
+EscapeTimeAPI api = escapeTime.api();
 api.testApi(); // вывод: EscapeTime API works correctly!
 ```
 или
-```java
-Plugin plugin = Bukkit.getPluginManager().getPlugin("EscapeTime");
-
-if (plugin != null) {
-    EscapeTime escapeTime = (EscapeTime) plugin;
-    EscapeTimeAPI api = escapeTime.api();
-    api.testApi(); // вывод: EscapeTime API works correctly!
-} else throw NullPointerException("Плагин EscapeTime не обнаружен");
+```kotlin
+// KOTLIN
+val api: EscapeTimeAPI? = (Bukkit.getPluginManager().getPlugin("EscapeTime") as EscapeTime?)?.api()
+api?.testApi() // вывод: EscapeTime API works correctly!
 ```
 <br/><br/>
 <a href="#docs" id="docs">
