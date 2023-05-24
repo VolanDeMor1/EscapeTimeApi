@@ -208,6 +208,9 @@ $dokka.location:lol.asgard.escapetime.api.object.gamer/HandActionType/valueOf/#k
 $dokka.location:lol.asgard.escapetime.api.object.gamer/HandActionType/values/#/PointingToDeclaration/-escape-time-api/lol.asgard.escapetime.api.object.gamer/-hand-action-type/values.html
 $dokka.location:lol.asgard.escapetime.api.object.gamer/Monster///PointingToDeclaration/-escape-time-api/lol.asgard.escapetime.api.object.gamer/-monster/index.html
 $dokka.location:lol.asgard.escapetime.api.object.gamer/Monster/monsterType/#/PointingToDeclaration/-escape-time-api/lol.asgard.escapetime.api.object.gamer/-monster/monster-type.html
+$dokka.location:lol.asgard.escapetime.api.object.gamer/Monster/turnIntoMonster/#/PointingToDeclaration/-escape-time-api/lol.asgard.escapetime.api.object.gamer/-monster/turn-into-monster.html
+$dokka.location:lol.asgard.escapetime.api.object.gamer/Monster/turnIntoMonster/#lol.asgard.escapetime.api.object.gamer.MonsterType/PointingToDeclaration/-escape-time-api/lol.asgard.escapetime.api.object.gamer/-monster/turn-into-monster.html
+$dokka.location:lol.asgard.escapetime.api.object.gamer/Monster/turnIntoPlayer/#/PointingToDeclaration/-escape-time-api/lol.asgard.escapetime.api.object.gamer/-monster/turn-into-player.html
 $dokka.location:lol.asgard.escapetime.api.object.gamer/MonsterType.HUGGY_WUGGY///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-escape-time-api/lol.asgard.escapetime.api.object.gamer/-monster-type/-h-u-g-g-y_-w-u-g-g-y/index.html
 $dokka.location:lol.asgard.escapetime.api.object.gamer/MonsterType///PointingToDeclaration/-escape-time-api/lol.asgard.escapetime.api.object.gamer/-monster-type/index.html
 $dokka.location:lol.asgard.escapetime.api.object.gamer/MonsterType/valueOf/#kotlin.String/PointingToDeclaration/-escape-time-api/lol.asgard.escapetime.api.object.gamer/-monster-type/value-of.html
@@ -406,8 +409,6 @@ $dokka.location:lol.asgard.escapetime.api.util.sound/PlaySound/volume/#/Pointing
 $dokka.location:lol.asgard.escapetime////PointingToDeclaration/-escape-time-api/lol.asgard.escapetime/index.html
 $dokka.location:lol.asgard.escapetime/EscapeTime///PointingToDeclaration/-escape-time-api/lol.asgard.escapetime/-escape-time/index.html
 $dokka.location:lol.asgard.escapetime/EscapeTime/api/#/PointingToDeclaration/-escape-time-api/lol.asgard.escapetime/-escape-time/api.html
-$dokka.location:lol.asgard.escapetime/EscapeTimeAPI.Companion///PointingToDeclaration/-escape-time-api/lol.asgard.escapetime/-escape-time-a-p-i/-companion/index.html
-$dokka.location:lol.asgard.escapetime/EscapeTimeAPI.Companion/get/#/PointingToDeclaration/-escape-time-api/lol.asgard.escapetime/-escape-time-a-p-i/-companion/get.html
 $dokka.location:lol.asgard.escapetime/EscapeTimeAPI///PointingToDeclaration/-escape-time-api/lol.asgard.escapetime/-escape-time-a-p-i/index.html
 $dokka.location:lol.asgard.escapetime/EscapeTimeAPI/gamerOf/#org.bukkit.OfflinePlayer/PointingToDeclaration/-escape-time-api/lol.asgard.escapetime/-escape-time-a-p-i/gamer-of.html
 $dokka.location:lol.asgard.escapetime/EscapeTimeAPI/gamerOf/#org.bukkit.entity.Player/PointingToDeclaration/-escape-time-api/lol.asgard.escapetime/-escape-time-a-p-i/gamer-of.html
